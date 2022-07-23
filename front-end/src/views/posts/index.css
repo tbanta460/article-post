@@ -1,0 +1,21 @@
+.action-icon {
+  margin: 0 10px;
+  width: 20px;
+  cursor: pointer;
+}
+
+tbody tr td:nth-child(1) {
+  width: 650px;
+}
+
+.wrap-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: max-content;
+  margin: auto;
+  gap: 50px;
+}
+.btn-ccc {
+  width: max-content;
+  margin: auto;
+}

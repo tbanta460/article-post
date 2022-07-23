@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "4d5bcbbd-42db-4244-9506-a433033fa73a",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21917158"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/allarticles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"allarticles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/article/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"article",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/articles?page=1&perPage=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"articles"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "perPage",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"mknf asdknmvncmvnskdckxzxcvxz\",\r\n    \"content\": \"qwdj wqdjowqdj woqd jwoqdjowqdjowqdjowqdjowqdjowqdjowqdoq owdowdjowqdjowqd qwdo jqwodqwodjowqdjowqdj qwdojowqdjowqdjwoqdjqwodj qowdjowqdjowqdj odododjosajndasba bh wqdhiosa jdbhjdshqhc jbsajhccasf kdojas ksaf nhafisa jowqdjowqdjowqdjowqdoq owdowdjowqdjowqd qwdo jqwodqwodjowqdjowqdj qwdojowqdjowqdjwoqdjqwodj qowdjowqdjowqdj odododjosajndasba bh wqdhiosa jdbhjdshqhc jbsajhccasf kdojas ksaf nhafisa jowqdjowqdjowqdjowqdoq owdowdjowqdjowqd qwdo jqwodqwodjowqdjowqdj qwdojowqdjowqdjwoqdjqwodj qowdjowqdjowqdj odododjosajndasba bh wqdhiosa jdbhjdshqhc jbsajhccasf kdojas ksaf nhafisa\",\r\n    \"category\":\"news,sport\",\r\n    \"status\":\"publish\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/article/15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"article",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"qwdwqdasfndvncxmvnxcvksdlkvjefewkfewjfkdsmvz\",\r\n    \"content\": \"qwdj wqdjowqdj woqd jwoqdjowqdjowqdjowqdjowqdjowqdjowqdoq owdowdjowqdjowqd qwdo jqwodqwodjowqdjowqdj qwdojowqdjowqdjwoqdjqwodj qowdjowqdjowqdj odododjosajndasba bh wqdhiosa jdbhjdshqhc jbsajhccasf kdojas ksaf nhafisa jowqdjowqdjowqdjowqdoq owdowdjowqdjowqd qwdo jqwodqwodjowqdjowqdj qwdojowqdjowqdjwoqdjqwodj qowdjowqdjowqdj odododjosajndasba bh wqdhiosa jdbhjdshqhc jbsajhccasf kdojas ksaf nhafisa jowqdjowqdjowqdjowqdoq owdowdjowqdjowqd qwdo jqwodqwodjowqdjowqdj qwdojowqdjowqdjwoqdjqwodj qowdjowqdjowqdj odododjosajndasba bh wqdhiosa jdbhjdshqhc jbsajhccasf kdojas ksaf nhafisa\",\r\n    \"category\":\"news,sport\",\r\n    \"status\":\"publish\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/article",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"article"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/article/15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"article",
+						"15"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
